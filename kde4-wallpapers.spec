@@ -1,17 +1,17 @@
 # TODO:
 %define		orgname		kde-wallpapers
 %define		_state		stable
-%define		qtver		4.7.4
+%define		qtver		4.8.0
 
 Summary:	KDE 4 wallpapers
 Summary(pl.UTF-8):	Tapety KDE 4
 Name:		kde4-wallpapers
-Version:	4.7.4
+Version:	4.8.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.bz2
-# Source0-md5:	e3606013a1406ba87293aa5948a6c123
+# Source0-md5:	396aa669ab31ab32f73f2278e6ca143a
 URL:		http://www.kde.org/
 Obsoletes:	kde4-kdebase-workspace-wallpapers
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -47,16 +47,16 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %{_datadir}/wallpapers/Air
-%{_datadir}/wallpapers/Aghi
-%{_datadir}/wallpapers/Evening
-%{_datadir}/wallpapers/Fields_of_Peace
+%{_datadir}/wallpapers/Ariya
+%{_datadir}/wallpapers/Azul
+%{_datadir}/wallpapers/Castilla_Sky
 %{_datadir}/wallpapers/Finally_Summer_in_Germany
+%{_datadir}/wallpapers/Flying_Field
+%{_datadir}/wallpapers/Fog_on_the_West_Lake
 %{_datadir}/wallpapers/Fresh_Morning
 %{_datadir}/wallpapers/Horos
 %{_datadir}/wallpapers/Media_Life
 %{_datadir}/wallpapers/Plasmalicious
-%{_datadir}/wallpapers/Quadros
-%{_datadir}/wallpapers/Red_Leaf
 %{_datadir}/wallpapers/Autumn
 %{_datadir}/wallpapers/Blue_Wood
 %{_datadir}/wallpapers/Grass
