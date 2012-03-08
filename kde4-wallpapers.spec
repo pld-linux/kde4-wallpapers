@@ -10,7 +10,7 @@ Version:	4.8.1
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/xz/%{orgname}-%{version}.tar.xz
+Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
 # Source0-md5:	803b5e91d415ab3519a872c70b0c770a
 URL:		http://www.kde.org/
 Obsoletes:	kde4-kdebase-workspace-wallpapers
