@@ -1,17 +1,17 @@
 # TODO:
 %define		orgname		kde-wallpapers
 %define		_state		stable
-%define		qtver		4.8.0
+%define		qtver		4.8.1
 
 Summary:	KDE 4 wallpapers
 Summary(pl.UTF-8):	Tapety KDE 4
 Name:		kde4-wallpapers
-Version:	4.8.2
+Version:	4.8.3
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	9e3dcf2d0f593795f6b7ee09b4fb1595
+# Source0-md5:	87e16f37104f13692d7f9c547d82ae9f
 URL:		http://www.kde.org/
 Obsoletes:	kde4-kdebase-workspace-wallpapers
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
