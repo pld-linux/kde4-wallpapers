@@ -6,12 +6,12 @@
 Summary:	KDE 4 wallpapers
 Summary(pl.UTF-8):	Tapety KDE 4
 Name:		kde4-wallpapers
-Version:	4.9.5
+Version:	4.10.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	a83c51feb7a3e90b3b5106c562d6dc06
+# Source0-md5:	db0555f0431025dc4bb9975f746472c2
 URL:		http://www.kde.org/
 Obsoletes:	kde4-kdebase-workspace-wallpapers
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
@@ -46,18 +46,18 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%{_datadir}/wallpapers/Air
 %{_datadir}/wallpapers/Ariya
+%{_datadir}/wallpapers/Auros
+%{_datadir}/wallpapers/Autumn
 %{_datadir}/wallpapers/Azul
+%{_datadir}/wallpapers/Blue_Wood
 %{_datadir}/wallpapers/Castilla_Sky
-%{_datadir}/wallpapers/Finally_Summer_in_Germany
+%{_datadir}/wallpapers/Elarun
+%{_datadir}/wallpapers/Flores
 %{_datadir}/wallpapers/Flying_Field
 %{_datadir}/wallpapers/Fog_on_the_West_Lake
-%{_datadir}/wallpapers/Fresh_Morning
-%{_datadir}/wallpapers/Horos
-%{_datadir}/wallpapers/Media_Life
-%{_datadir}/wallpapers/Plasmalicious
-%{_datadir}/wallpapers/Autumn
-%{_datadir}/wallpapers/Blue_Wood
 %{_datadir}/wallpapers/Grass
 %{_datadir}/wallpapers/Hanami
+%{_datadir}/wallpapers/Horos
+%{_datadir}/wallpapers/Media_Life
+%{_datadir}/wallpapers/Prato
