@@ -6,12 +6,12 @@
 Summary:	KDE 4 wallpapers
 Summary(pl.UTF-8):	Tapety KDE 4
 Name:		kde4-wallpapers
-Version:	4.11.3
+Version:	4.12.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
 Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
-# Source0-md5:	0314b9e6cd46d121c8cad171c7d18722
+# Source0-md5:	0ceb0655d5c0a3545e5098cb7d4552d7
 URL:		http://www.kde.org/
 Obsoletes:	kde4-kdebase-workspace-wallpapers
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
