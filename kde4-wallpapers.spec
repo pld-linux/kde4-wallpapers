@@ -10,7 +10,7 @@ Version:	4.14.0
 Release:	1
 License:	GPL v2+
 Group:		X11/Applications
-Source0:	ftp://ftp.kde.org/pub/kde/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
+Source0:	http://download.kde.org/%{_state}/%{version}/src/%{orgname}-%{version}.tar.xz
 # Source0-md5:	1bdcb61bad8b3cfdaf119cba019dde95
 URL:		http://www.kde.org/
 Obsoletes:	kde4-kdebase-workspace-wallpapers
